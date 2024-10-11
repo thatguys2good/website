@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Visitor Count</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #2c3e50;
+      color: #ecf0f1;
+      font-size: 2rem;
+    }
+    .visitor-count {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="visitor-count">
+    <h1>Live Visitors: <span id="visitorCount">0</span></h1>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+    const visitorCountElem = document.getElementById('visitorCount');
+
+    // Listen for visitor updates from the server
+    socket.on('visitorUpdate', (count) => {
+      visitorCountElem.textContent = count;
+    });
+  </script>
+</body>
+</html>
