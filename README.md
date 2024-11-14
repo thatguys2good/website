@@ -1,2 +1,1 @@
-# Abyss of JHDB
-<h1>Step into a world filled with enigmatic depths, ancient legends, and trials that push every adventurer to the edge. Here, heroes are forged in darkness, mysteries unravel with each step, and the shadows hold secrets worth uncovering. Are you prepared to face the Abyss and become a legend? (Game made by Jackson, Henry, Dillon, and Brayden.)</h1>
+Welcome to Abyss of JHDB! Dive into a world full of mysteries, challenges, and hidden secrets waiting to be discovered. Explore, survive, and see what the Abyss has in store for you. Whether you’re here to test your skills or just see what’s lurking in the shadows, this is the place for adventure. Ready to jump in? (Game made by Jackson, Henry, Dillon, and Brayden.)</h1>
