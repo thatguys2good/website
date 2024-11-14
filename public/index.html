@@ -3,22 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>jhdb MAIN</title>
+  <title>Key Verification</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="background-grid"></div>
   <div class="container">
     <div id="notification" class="notification"></div>
-    <h1 class="title">Enter Key</h1>
-    <input type="text" id="keyInput" placeholder="key">
-    <button id="checkButton" onclick="checkKey()">
-      <i class="fas fa-check"></i>
-    </button>
-    <div id="playButton" class="play-button hidden">
-      <button onclick="startGame()">Play</button>
-    </div>
+    <h1 class="title">JHDB Abyss</h1>
+    <input type="text" id="keyInput" placeholder="key" onkeydown="handleKey(event)">
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
